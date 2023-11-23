@@ -1,4 +1,4 @@
-import Photo from '../assets/recipe-logo.png';
+import Photo from '../../public/images/recipe-logo.png';
 
 export default function Header() {
     return (

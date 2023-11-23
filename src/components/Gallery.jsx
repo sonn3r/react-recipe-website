@@ -1,4 +1,4 @@
-import Image from '../assets/gallery.png';
+import Image from '../../public/images/gallery.png';
 
 export default function Gallery() {
     return (

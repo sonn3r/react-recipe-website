@@ -3,6 +3,10 @@ body {
     font-family: Inter, sans-serif;
 }
 
+.gray {
+    color: gray;
+}
+
 /* Header */
 header {
     display: flex;
@@ -52,4 +56,63 @@ header > p {
 .gallery-section > p {
     font-size: 30px;
     text-align: justify;
+}
+
+.card {
+    padding: 0 16px;
+    font-size: 48px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.card-photo {
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.star-icon {
+    color: #b91c1c;
+}
+
+.review {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating {
+    padding: 5px;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title {
+    margin-bottom: 0;
+}
+
+.cuisine {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.card-badge {
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    background-color: red;
+    color: white;
+    padding: 5px 7px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
